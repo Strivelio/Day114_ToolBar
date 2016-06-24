@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item android:title="搜索" android:icon="@mipmap/menusearch"
+          app:showAsAction="always" android:id="@+id/menu_search"/>
+    <item android:title="更多" android:icon="@mipmap/menumore"
+          app:showAsAction="always" android:id="@+id/menu_more"/>
+    <item android:title="付款" android:icon="@mipmap/menu2"
+          app:showAsAction="never" android:id="@+id/menu_pay"/>
+    <item android:title="扫一扫" android:icon="@mipmap/menu3"
+          app:showAsAction="never" android:id="@+id/menu_sao"/>
+</menu>

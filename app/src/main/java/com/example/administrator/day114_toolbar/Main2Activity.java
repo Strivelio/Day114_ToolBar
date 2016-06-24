@@ -59,6 +59,7 @@ public class Main2Activity extends AppCompatActivity {
             bundle.putString("title", titles[i]);
             fragments[i].setArguments(bundle);
         }
+        //设置ViewPager
         setViewPager();
     }
 
